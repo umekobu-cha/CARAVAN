@@ -37,8 +37,20 @@ header .heading { /*headerタグ内のheadingクラスにのみ反映される*/
 }
 
 .main-visual-content {
-  width: 350px;
+  width: 40%;
   height: 300px;
+  background-color: rgba(0,0,0,0.5); /*背景色を半透明の黒にする*/
+  text-align: center; /*文字を中央揃え*/
+  padding-top: 105px; /*上側の内側余白で垂直方向の位置を調整*/
+}
+
+.main-visual-text {
+  color: #fff;
+}
+
+.main-visual-name {
+  margin-top:  30px; /*上側*/
+  color: #fff;
 }
 
 .main {
